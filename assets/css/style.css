@@ -13,7 +13,9 @@
 }
 body{
   background: #000;
+  font-family: 'Philosopher', sans-serif;
 }
+
 .btn{
   margin-top: 2rem;
   width: 150px;
@@ -102,7 +104,8 @@ section{
 .home .home-image{
   width: 50%;
 }
-.home .home-content img{
+.home .home-image img{
   width: 100%;
   height: 100%;
 }
+
