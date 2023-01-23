@@ -55,7 +55,6 @@ h2 {
 
 /* Header */
 .header {
-  position: flex;
   top: 0;
   left: 0;
   right: 0;
@@ -115,7 +114,7 @@ h2 {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-clip: url(../assets/images/video1.mp4);
+  background: url(../assets/images/video1.mp4);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -285,7 +284,9 @@ p {
   background-position: center;
   object-fit: cover;
   overflow: hidden;
-  color: white;
+  position: relative;
+  text-transform: uppercase;
+  color: #fff;
   width: 100%;
   padding-top: 50px;
   text-align: center;
@@ -301,21 +302,26 @@ p {
 
 #free h2 {
   color: #00BFFF;
-  font-size: 50px;
+  letter-spacing: 4px;
+  font-size: 180%;
   text-align: center;
   margin: 20px 0;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
 
 }
 
 
 #free p {
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
   margin: 10px 20px;
-  font-size: 20px;
+  font-size: 130%;
   color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
+  background-color: rgba(241, 109, 107, .5);
 }
 
 /** footer **/
@@ -351,7 +357,9 @@ footer {
   text-align: center;
 }
 
-
+.newsletter{
+  text-align: center;
+}
 
 /** About us page **/
 
@@ -411,7 +419,7 @@ footer {
   padding: 10px 35px;
   text-decoration: none;
   letter-spacing: 1px;
-  font-size: 22p;
+  font-size: 22px;
   text-transform: uppercase;
 }
 
@@ -602,7 +610,6 @@ footer {
 .wrapper .form .inputfield:last-child {
   margin-bottom: 0;
 }
-
 
 /** Services & Pricing **/
 

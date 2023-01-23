@@ -37,11 +37,16 @@ The landing page includes welcoming message, a video to grab user's attention wi
 </div>
  
 * Reasons to join us section
+<br>
+This section will allow the users to learn about reasons to join us, such as 24 hours gym access, about our excellent structure and how committed our professionals. There is also a call to action button redirectiong to the registration form.
+
  <div align="center">
    <img src="assets/images/screenshots/screenshothome2.png" width="400px"</img> 
 </div>
 
-* The free section
+* The free section 
+<br>
+The free section communicates to users some free available classes to members. There is a also weekly totally free classes available to the community to intruduce users SummitFit and our traines. 
  <div align="center">
    <img src="assets/images/screenshots/screenshothome3.png" width="400px"</img> 
 </div>
@@ -52,11 +57,21 @@ The landing page includes welcoming message, a video to grab user's attention wi
 </div>
 
 * Services & Pricing page
-
+ <div align="center">
+   <img src="assets/images/screenshots/pricingpage.png" width="400px"</img> 
+</div>
 
 * About us page
+ <div align="center">
+   <img src="assets/images/screenshots/aboutuspage.png" width="400px"</img> 
+</div>
+
 
 * Join now page
+ <div align="center">
+   <img src="assets/images/screenshots/joinuspage.png" width="400px"</img> 
+</div>
+
 
 # Features Left to Implement
 
