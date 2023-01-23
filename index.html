@@ -20,26 +20,26 @@
 </head>
 
 <body>
-
-
     <!--Adding header logo & company name-->
-    <header class="header">
-        <a href="index.html" class="logo">
-            <i class="fas fa-dumbbell"></i>SummitFit
-        </a>
 
-
-        <!--Internal links to different sections of the page specific for site navigation-->
-        <div id="navbar">
-            <nav class="navbar">
-                <a href="index.html" class="active">Home</a>
-                <a href="services.html">Services & Pricing</a>
-                <a href="about.html">About</a>
-                <a href="#">|</a>
-                <a href="join.html" class="btnnav">Join now</a>
-            </nav>
+    <section class="top-nav">
+        <div>
+            <a href="index.html" class="logo">
+                <i class="fas fa-dumbbell"></i>SummitFit
+            </a>
         </div>
-    </header>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="services.html">Services & Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="join.html" class="btnnav">Join now</a></li>
+        </ul>
+    </section>
+
 
     <!--Hero video slider and slider container-->
     <section class="slider">
