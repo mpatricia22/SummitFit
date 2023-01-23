@@ -2,21 +2,36 @@
 
 # SummitFit
 
-SummitFit is a gym in Ireland 
+Summitfit is a gym website focused to audience located in ireland, Dublin and Cork city. This website has been built with the aim to keep users informed about us, our services, pricing and offering an easy way for users to join our club.
+
+Summitfit was born in 2022! Dublin opened in january,2022, followed by the first location outside dublin, and in Cork city in may 2022! 
+
+Summitfit is the first commercial gym to have a heated chamber. The heated chamber is now available in dublin & cork too.
+
+At summitfit we're here to provide a unique environment in which anyone can be comfortable. A diverse, judgement free zone® where a lasting, active lifestyle can be built. 
+
+Our product is a tool, a means to an end; not a brand name or a mold-maker, but a tool that can be used by anyone. In the end, it’s all about you. As we evolve and educate ourselves, we will seek to perfect this safe, energetic environment, where everyone feels accepted and respected. We are not here to kiss your butt, only to kick it if that’s what you need.
 
 <div align="center">
     <img src="assets/images/screenshots/screenshothome.png" width="400px"</img> 
 </div>
 
-
-
 # Features
+
+The application intends to attract users getting to know SummitFit. Through this application, users can access the HomePage, learn about the Pricing and Services and Join us by completing the Join now form. Below are a brief overview of each page and features.
 
 # Existing Features
 
 ## Navigation Bar
 
+The navigation bar is featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Services & Pricing page, About us and Join now page and is identical in each page to allow for easy navigation.
+
+The navbar will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+
 * The landing page image
+<br>
+The landing page includes welcoming message, a video to grab user's attention with a text overlay to allow users to visualize which audience this website would be applicable to. There is also a call to action button redirecting to the registration form.
+
 <div align="center">
     <img src="assets/images/screenshots/screenshothome.png" width="400px"</img> 
 </div>
