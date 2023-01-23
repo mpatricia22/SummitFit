@@ -37,58 +37,73 @@
 
             <form action="https://formdump.codeinstitute.net/" method="post">
 
-            <div class="form">
-                <div class="inputfield">
-                    <label for>First Name</label>
-                    <input id="name-field" type="text" class="input" name="full_name" placeholder="First name" required>
-                </div>
-                <div class="inputfield">
-                    <label for>Last Name</label>
-                    <input id="last-name" type="text" class="input" name="last_name" placeholder="Last name" required>
-                </div>
-                <div class="inputfield">
-                    <label for>Gender</label>
-                    <div class="custom_select">
-                        <select>
-                            <option value="">Select</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                        </select>
+                <div class="form">
+                    <div class="inputfield">
+                        <label for>First Name</label>
+                        <input id="name-field" type="text" class="input" name="full_name" placeholder="First name"
+                            required>
                     </div>
+                    <div class="inputfield">
+                        <label for>Last Name</label>
+                        <input id="last-name" type="text" class="input" name="last_name" placeholder="Last name"
+                            required>
+                    </div>
+                    <div class="inputfield">
+                        <label for>Gender</label>
+                        <div class="custom_select">
+                            <select>
+                                <option value="">Select</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="inputfield">
+                        <label for>Email Address</label>
+                        <input id="email-field" type="email" name="email" class="input" placeholder="Your email"
+                            required>
+                    </div>
+                    <div class="inputfield">
+                        <label for>Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="input" placeholder="Your Phone">
+                    </div>
+                    <div class="inputfield">
+                        <label>Address</label>
+                        <textarea class="textarea"></textarea>
+                    </div>
+                    <div class="inputfield">
+                        <label>Postal Code</label>
+                        <input type="text" class="input">
+                    </div>
+                    <div class="inputfield terms">
+                        <label class="check">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p>Agreed to terms and conditions</p>
+                    </div>
+                    <div class="inputfield">
+                        <input type="submit" value="Register" class="btn">
+                    </div>
+                    <input type="reset" value="Reset form">
                 </div>
-                <div class="inputfield">
-                    <label for>Email Address</label>
-                    <input id="email-field" type="email" name="email" class="input" placeholder="Your email" required>
-                </div>
-                <div class="inputfield">
-                    <label for>Phone Number</label>
-                    <input type="tel" id="phone" name="phone"class="input" placeholder="Your Phone">
-                </div>
-                <div class="inputfield">
-                    <label>Address</label>
-                    <textarea class="textarea"></textarea>
-                </div>
-                <div class="inputfield">
-                    <label>Postal Code</label>
-                    <input type="text" class="input">
-                </div>
-                <div class="inputfield terms">
-                    <label class="check">
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <p>Agreed to terms and conditions</p>
-                </div>
-                <div class="inputfield">
-                    <input type="submit" value="Register" class="btn">
-                </div>
-                <input type="reset" value="Reset form">
-            </div>
         </div>
     </section>
 
     <!-- Footer -->
+    <!-- Footer -->
+
+
     <footer>
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <form>
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <label for="email">Your email</label>
+                    <input type="text" id="email" name="email">
+                    <button type="submit"><strong>Register</strong></button>
+                </form>
+        </div>
 
         <div class="address">
             <h3>Address</h3>
@@ -98,6 +113,7 @@
                 <span>+353 08940545455</span>
             </p>
         </div>
+
 
         <ul class="social-networks">
             <li>

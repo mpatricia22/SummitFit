@@ -30,13 +30,13 @@ The application intends to attract users getting to know SummitFit. Through this
 
 ## Navigation Bar
 
-The navigation bar is featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Services & Pricing page, About us and Join now page and is identical in each page to allow for easy navigation.
+The navigation bar is featured on all four pages, with the gym name "SummitFit" on the left corner with logo and links to other pages of the website on the right. The links when clicked redirected to the respective pages. The full responsive navigation bar includes links to the Logo, Home page, Services & Pricing page, About us and Join now page and is identical in each page to allow for easy navigation.
 
 The navbar will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 * The landing page image
 <br>
-The landing page includes welcoming message, a video to grab user's attention with a text overlay to allow users to visualize which audience this website would be applicable to. There is also a call to action button redirecting to the registration form.
+The landing page in the header section includes h1 heading welcoming message, a video to grab user's attention extracted from pexels.A h3 heading to allow users to visualize which audience this website would be applicable to and there is also a call to action button redirecting to the registration form.
 
 <div align="center">
     <img src="assets/images/screenshots/screenshothome.png" width="400px"</img> 
@@ -59,7 +59,7 @@ The free section communicates to users some free available classes to members. T
 
 * The Footer
 <br>
-The footer provides users with a consistent point of reference that can be accessed on all pages of the website. The footer contains a copyright notice, social media icons, address and email to sign-up form.
+The footer provides users with a consistent point of reference/contact information that can be accessed on all pages of the website. The footer contains a copyright notice, link to social media icons (using fontawesome icons), address and email to sign-up to newsletter. The link to social medias redirects to a new tab when clicked.
  <div align="center">
    <img src="assets/images/screenshots/screenshothome4.png" width="400px"</img> 
 </div>
@@ -74,7 +74,7 @@ This page has been designed to inform pricing and services. It displays three bo
 
 * About us page
 <br>
-The abous us page contains information about our history, mission and read more redirect link. There is also an image located on the right side of the screen.
+The abous us page with a level 1 heading contains information about our history, mission and read more redirect link. There is also an image located on the right side of the screen.
 <br>
  <div align="center">
    <img src="assets/images/screenshots/aboutuspage.png" width="400px"</img> 
@@ -83,7 +83,7 @@ The abous us page contains information about our history, mission and read more 
 
 * Join now page
 <br>
-This page includes a registration form where the user will need to complete the form informing personal details such as first name, last name, gender, email address, phone number, address and postal code.
+This page includes a registration form with another level 3 heading where the user will need to complete the form informing personal details such as first name, last name, gender, email address, phone number, address and postal code in order to sign up for the club. The form contain validation in html, so we cannot submit an empty form or enter a non-email address into an email address field.
  <div align="center">
    <img src="assets/images/screenshots/joinuspage.png" width="400px"</img> 
 </div>
@@ -100,10 +100,20 @@ This page includes a registration form where the user will need to complete the 
 # Testing
 
 
-An extensive testing has been conducted 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+An extensive testing has been conducted and no major issues has been found. The sites works at full capacity, user friendly and intuitive. The users can easily navigate and achieve their goals without any trouble. The website is fully responsive and works well on different browsers and screem sizes.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The forms available in the website contains validation in html, so there is no way users can submit an empty form or enter a non-email address into an email address field.
+
+In CSS, I have experienced some syntax issues. 
+
+ <div align="center">
+   <img src="/workspace/SummitFit/assets/images/cssvalidation.png" width="400px"</img> 
+</div>
+
+I've also seen many value errors example below.That were fixed during the development stages.
+<div align="center">
+   <img src="/workspace/SummitFit/assets/images/cssvalidation2.png" width="400px"</img> 
+</div>
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
@@ -113,9 +123,14 @@ If this section grows too long, you may want to split it off into a separate fil
 
 * HTML
 No errors were returned when passing through the official W3C validator
+ <div align="center">
+   <img src="assets/images/screenshots/validatorhtmlpageindex.png" width="400px"</img> 
+</div>
 * CSS
 No errors were found when passing through the official (Jigsaw) validator
-
+ <div align="center">
+   <img src="assets/images/screenshots/cssvalidationpass.png" width="400px"</img> 
+</div>
 # Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
