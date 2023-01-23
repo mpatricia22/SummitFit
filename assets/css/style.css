@@ -111,17 +111,10 @@ h2 {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-clip: url(../assets/images/video1.mp4) no-repeat;
+  background-size: cover;
 }
 
-#slidervideo {
-  object-fit: flex;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
 
 .slider-container h3 {
   color: tomato;
