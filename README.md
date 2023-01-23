@@ -4,9 +4,9 @@
 
 Summitfit is a gym website focused to audience located in ireland, Dublin and Cork city. This website has been built with the aim to keep users informed about us, our services, pricing and offering an easy way for users to join our club.
 
-Summitfit was born in 2022! Dublin opened in january,2022, followed by the first location outside dublin, and in Cork city in may 2022! 
+It includes a variety of features including internal/external links, images, custom fonts, embedded maps, consistent and detailed page styling, and support for mobile, tablet, and desktop devices.
 
-Summitfit is the first commercial gym to have a heated chamber. The heated chamber is now available in dublin & cork too.
+Summitfit was born in 2022! Dublin opened in january,2022, followed by the first location outside dublin, and in Cork city in may 2022! Summitfit is the first commercial gym to have a heated chamber. The heated chamber is now available in dublin & cork too.
 
 At summitfit we're here to provide a unique environment in which anyone can be comfortable. A diverse, judgement free zone® where a lasting, active lifestyle can be built. 
 
@@ -15,6 +15,12 @@ Our product is a tool, a means to an end; not a brand name or a mold-maker, but 
 <div align="center">
     <img src="assets/images/screenshots/screenshothome.png" width="400px"</img> 
 </div>
+
+# Creator
+
+Marcia P Fritzen <br>
+Code Institute Student,
+2023
 
 # Features
 
@@ -52,24 +58,32 @@ The free section communicates to users some free available classes to members. T
 </div>
 
 * The Footer
+<br>
 The footer provides users with a consistent point of reference that can be accessed on all pages of the website. The footer contains a copyright notice, social media icons, address and email to sign-up form.
  <div align="center">
    <img src="assets/images/screenshots/screenshothome4.png" width="400px"</img> 
 </div>
 
 * Services & Pricing page
+<br>
+This page has been designed to inform pricing and services. It displays three boxes for bronze plan, silver plan and premium plan with the respective prices and services available. There is also a redirecting link to users complete the registration form.
+
  <div align="center">
    <img src="assets/images/screenshots/pricingpage.png" width="400px"</img> 
 </div>
 
 * About us page
+<br>
+The abous us page contains information about our history, mission and read more redirect link. There is also an image located on the right side of the screen.
+<br>
  <div align="center">
    <img src="assets/images/screenshots/aboutuspage.png" width="400px"</img> 
 </div>
 
 
 * Join now page
-This page includes a registration form where the user will need to complete the form informing personal details such as first name, last name, gender, email address, phone number, address amd postal code.
+<br>
+This page includes a registration form where the user will need to complete the form informing personal details such as first name, last name, gender, email address, phone number, address and postal code.
  <div align="center">
    <img src="assets/images/screenshots/joinuspage.png" width="400px"</img> 
 </div>
@@ -77,10 +91,16 @@ This page includes a registration form where the user will need to complete the 
 
 # Features Left to Implement
 
-Another feature idea
+1. Feature left to implement is a login and admin management page
+2. Gallery page
+3. Detailed Services page
+4. Section in the home page with the instructors name and description.
+
 
 # Testing
 
+
+An extensive testing has been conducted 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
@@ -100,27 +120,20 @@ No errors were found when passing through the official (Jigsaw) validator
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 # Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+SummitFit website was deployed to GitHub pages. The deployment steps taken:
+1. Access GitHub repository SummitFit
+2. Go to the Settings tab
+3. From the source section drop-down menu, select the Master Branch
+4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+5. The live link can be found here - https://mpatricia22.github.io/SummitFit/
 
 
 # Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+## Content
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+The icons in the footer were taken from Font Awesome.
 
-# Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
-
-# Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+## Media
+All the photos included on project are from https://www.pexels.com/
