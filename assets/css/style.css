@@ -109,12 +109,17 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: tomato;
-  background: linear-gradient(to left, #f46b45, #00BFFF);
+  background-color: #00BAF0;
+  background: linear-gradient(to left, #00BAF0, #f46b45);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
+  color: #FFF;
   height: 50px;
   padding: 1em;
+}
+
+.top-nav-i i,
+a {
+  color: white;
 }
 
 .menu {
@@ -172,7 +177,7 @@ h2 {
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button {
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button::after {
@@ -269,7 +274,8 @@ h1 {
   margin-top: 2rem;
   width: 180px;
   padding: 12px;
-  color: #fff;
+  color: white;
+  font-weight: 1000;
   background: tomato;
   font-size: 16px;
   border-radius: 4px;
@@ -277,7 +283,7 @@ h1 {
 }
 
 .btn:hover {
-  background: rgba(212, 48, 48, 0.76);
+  background: rgba(215, 48, 48, 0.76);
   transition: 0.4s;
 }
 
