@@ -38,7 +38,7 @@ The landing page includes welcoming message, a video to grab user's attention wi
  
 * Reasons to join us section
 <br>
-This section will allow the users to learn about reasons to join us, such as 24 hours gym access, about our excellent structure and how committed our professionals. There is also a call to action button redirectiong to the registration form.
+This section will allow the users to learn about reasons to join SummitFit, such as 24 hours gym access, about our excellent structure and how committed our professionals. There is also a call to action button redirectiong to the registration form.
 
  <div align="center">
    <img src="assets/images/screenshots/screenshothome2.png" width="400px"</img> 
@@ -52,6 +52,7 @@ The free section communicates to users some free available classes to members. T
 </div>
 
 * The Footer
+The footer provides users with a consistent point of reference that can be accessed on all pages of the website. The footer contains a copyright notice, social media icons, address and email to sign-up form.
  <div align="center">
    <img src="assets/images/screenshots/screenshothome4.png" width="400px"</img> 
 </div>
@@ -68,6 +69,7 @@ The free section communicates to users some free available classes to members. T
 
 
 * Join now page
+This page includes a registration form where the user will need to complete the form informing personal details such as first name, last name, gender, email address, phone number, address amd postal code.
  <div align="center">
    <img src="assets/images/screenshots/joinuspage.png" width="400px"</img> 
 </div>
