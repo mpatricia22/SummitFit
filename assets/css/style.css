@@ -768,7 +768,7 @@ footer {
 .pricing h1::after {
   content: "";
   height: 5px;
-  width: 200px;
+  width: 420px;
   background-color: #2b9ec2;
   border-radius: 10px;
   display: flex;
