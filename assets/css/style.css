@@ -318,11 +318,11 @@ h3,
 span {
   text-align: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 footer {
-  height: 150px;
+  height: 100px;
 }
 
 .social-networks {
@@ -350,7 +350,6 @@ footer {
 
 .about {
   width: 100%;
-
 }
 
 .about h1 {
@@ -359,7 +358,7 @@ footer {
   color: tomato;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  margin-top: 150px;
+  margin-top: 40px;
 }
 
 .about h1::after {
@@ -368,7 +367,7 @@ footer {
   width: 200px;
   background-color: #2b9ec2;
   border-radius: 10px;
-  display: block;
+  display: flex;
   margin: auto;
 }
 
@@ -378,14 +377,14 @@ footer {
 }
 
 .content {
-  width: 60%;
+  width: 58%;
   float: left;
   text-align: left;
   padding: 0px 30px;
 }
 
 .content h3{
-  color: #222
+  color: tomato;
   letter-spacing: 1px;
 }
 
@@ -431,7 +430,7 @@ footer {
 
 
 .joinusform {
-background-image: url(../images/img5.jpg);
+background-image: url(../images/img15.jpg);
 background-position: center;
 background-repeat: no-repeat no-repeat;
 background-size: cover;
@@ -591,6 +590,9 @@ background-color: black;
 .wrapper .form .inputfield:last-child{
   margin-bottom: 0;
 }
+
+
+/** Services & Pricing **/
 
 
 /* Media queries */
