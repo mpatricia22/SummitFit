@@ -111,7 +111,7 @@ h2 {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-clip: url(../assets/images/video1.mp4) no-repeat;
+  background-clip: url(../assets/images/video1.mp4);
   background-size: cover;
 }
 
