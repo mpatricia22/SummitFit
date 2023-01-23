@@ -36,7 +36,15 @@ The navbar will allow the user to easily navigate from page to page across all d
 
 * The landing page image
 <br>
-The landing page in the header section includes h1 heading welcoming message, a video to grab user's attention extracted from pexels.A h3 heading to allow users to visualize which audience this website would be applicable to and there is also a call to action button redirecting to the registration form.
+1. The landing page in the header section includes h1 heading.
+
+2. Welcoming message using the color white.
+
+3. Video to grab user's attention extracted from pexels.com.
+
+4. A h3 heading to allow users to visualize which audience this website would be applicable to.
+
+5. There is also a call to action button redirecting to the registration form.
 
 <div align="center">
     <img src="assets/images/screenshots/screenshothome.png" width="400px"</img> 
@@ -100,9 +108,21 @@ This page includes a registration form with another level 3 heading where the us
 # Testing
 
 
-An extensive testing has been conducted and no major issues has been found. The sites works at full capacity, user friendly and intuitive. The users can easily navigate and achieve their goals without any trouble. The website is fully responsive and works well on different browsers and screem sizes.
+An extensive testing has been conducted and no major issues has been found. 
+
+The sites works at full capacity, user friendly and intuitive. The users can easily navigate and achieve their goals without any trouble. 
+
+The website is fully responsive and works well on different browsers such as Chrome, Firefox and Safari and also on different screem sizes.
 
 The forms available in the website contains validation in html, so there is no way users can submit an empty form or enter a non-email address into an email address field.
+
+I confirmed that the navigation, header, about us, sign up and contact text are all readable and easy to understand.
+
+# Bugs
+
+When I deployed my project on github I found out that the video in the landing page was not working, I discovered this was due to the incorrect path.
+
+Fixed to: https://mpatricia22.github.io/SummitFit/assets/images/video1.mp4 
 
 In CSS, I have experienced some syntax issues. 
 
@@ -131,8 +151,13 @@ No errors were found when passing through the official (Jigsaw) validator
  <div align="center">
    <img src="assets/images/screenshots/cssvalidationpass.png" width="400px"</img> 
 </div>
-# Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+* Accessibility
+I confirmed that the colors and fonts chosen are easy to ready and accessible by running lighthouse in devtools.
+ <div align="center">
+   <img src="assets/images/screenshots/lighthouse.png" width="400px"</img> 
+</div>
+
 
 # Deployment
 
