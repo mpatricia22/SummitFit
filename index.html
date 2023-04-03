@@ -22,27 +22,24 @@
 <body>
     <!--Adding topnav logo & company name-->
 
-    <section class="top-nav">
-        <div class="top-nav-i">
-            <a href="index.html" class="logo">
-                <i class="fas fa-dumbbell"></i>SummitFit
-            </a>
-        </div>
-        </div>
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'></div>
-        </label>
-        <ul class="menu">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="services.html">Services & Pricing</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="join.html" class="btnnav">Join now</a></li>
-        </ul>
-    </section>
+
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">SummitFit</label>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="services.html">Services & Pricing</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="join.html" class="btnnav">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!--Hero video slider and slider container-->
-    <section class="slider">
         <div class="slider">
             <video muted autoplay loop>
                 <source src="https://mpatricia22.github.io/SummitFit/assets/images/video1.mp4" type="video/mp4">
@@ -58,7 +55,6 @@
                 </form>
             </div>
         </div>
-    </section>
 
     <!-- Reasons section -->
 
@@ -110,23 +106,17 @@
 
     <!--Free section-->
 
-    <section id="free">
-        <div>
+    <div id="free">
             <h2> Best classes available to the community for free</h2>
-            <p>
-                Here, at SummitFit, we believe in giving back. That’s why our top-of-the-line classes are free for every
+            <p>Here, at SummitFit, we believe in giving back. That’s why our top-of-the-line classes are free for every
                 member. Our most popular classes such as Yoga/Pilates, Strength, HIIT and Lift and HIIT are sure to
                 challenge you to the max. They’re a sure way to stay consistent with your training without having to
                 worry about a workout plan. Our amazing fitness instructors will come up with the best workout for you
                 and will be there to push you past your limits.
-                There is a also weekly totally free classes available to the community to intruduce you SummitFit
-                structure and our traines.
-            </p>
             <form action="https://mpatricia22.github.io/SummitFit/join.html" class="inline">
                 <button class="btn">Join now</button>
             </form>
         </div>
-    </section>
 
     <!-- Footer -->
 
@@ -135,7 +125,7 @@
         <div class="newsletter">
             <h3>Newsletter</h3>
             <form>
-                <form action="https://formdump.codeinstitute.net/" method="post">
+
                     <label for="email">Your email</label>
                     <input type="text" id="email" name="email">
                     <button type="submit"><strong>Register</strong></button>
